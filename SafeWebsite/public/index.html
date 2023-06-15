@@ -71,12 +71,12 @@
       <div class="tweetBox">
         <form>
           <div class="tweetbox__input">
-            <img
-              src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png"
-              alt=""
+            <img id="image-container" alt="##"
             />
             <input type="text" placeholder="What's happening?" />
           </div>
+          <button id="upload-button" class="custom-file-button">Upload Image</button>
+          <input type="file" id="hidden-upload" class="hidden">
           <button class="tweetBox__tweetButton">Tweet</button>
         </form>
       </div>
@@ -95,9 +95,9 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                Somanath Goudar
+                Amish Patel
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                  ><span class="material-icons post__badge"> verified </span>@AmishHacker</span
                 >
               </h3>
             </div>
@@ -131,9 +131,9 @@
           <div class="post__header">
             <div class="post__headerText">
               <h3>
-                Somanath Goudar
+                Amish Patel
                 <span class="post__headerSpecial"
-                  ><span class="material-icons post__badge"> verified </span>@somanathg</span
+                  ><span class="material-icons post__badge"> verified </span>@AmishHacker</span
                 >
               </h3>
             </div>
@@ -186,5 +186,7 @@
       </div>
     </div>
     <!-- widgets ends -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/piexifjs/1.0.3/piexif.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
